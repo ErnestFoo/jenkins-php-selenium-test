@@ -16,14 +16,13 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-
 /**
  * Integration UI test for PHP App.
  */
 public class AppTest {
   WebDriver driver;
   WebDriverWait wait;
-  String url = "192.168.50.157";
+  String url = "localhost:8000";
   String validEmail = "user@example.com";
   String validPassword = "password1234";
   String invalidEmail = "none@example.com";
