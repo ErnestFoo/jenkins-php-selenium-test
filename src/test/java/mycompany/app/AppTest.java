@@ -22,7 +22,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class AppTest {
   WebDriver driver;
   WebDriverWait wait;
-  String url = "localhost:8000";
+  String url = "http://localhost:8000/";
   String validEmail = "user@example.com";
   String validPassword = "password1234";
   String invalidEmail = "none@example.com";
